@@ -4,7 +4,7 @@ title: "Home"
 permalink: /
 ---
 
-<img src="https://daniel-uhr.github.io/Daniel.JPEG" alt="Daniel de Abreu Pereira Uhr" style="display: block; margin: 0 auto; max-width: 300px; border-radius: 50%;">
+<img src="https://daniel-uhr.github.io/Daniel.jpg" alt="Daniel de Abreu Pereira Uhr" style="display: block; margin: 0 auto; max-width: 300px; border-radius: 50%;">
 
 # Daniel de Abreu Pereira Uhr
 
