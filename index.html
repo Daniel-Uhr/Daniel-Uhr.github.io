@@ -3,95 +3,135 @@
 
 <head>
     <title>Daniel de Abreu Pereira Uhr</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-    <!-- Custom CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
     <style>
-        .rect-avatar {
-            background-image: url('img/pic.jpg');
-            background-size: cover;
-            background-position: center;
-            width: 100%;
-            height: 200px;
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
         }
 
-        .social-links {
-            margin-top: 15px;
-            text-align: center;
+        .masthead {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            border-bottom: 1px solid #ddd;
         }
 
-        .social-links a {
-            margin: 0 10px;
-            font-size: 18px;
+        .masthead__menu {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .masthead__menu a {
             text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
         }
 
-        .social-links a:hover {
+        .masthead__menu a:hover {
             text-decoration: underline;
+        }
+
+        .sidebar {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-right: 1px solid #ddd;
+        }
+
+        .author__avatar img {
+            width: 100%;
+            height: auto;
+            max-width: 200px;
+            border-radius: 10px;
+        }
+
+        .author__content {
+            margin-top: 15px;
+        }
+
+        .social-icons a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        .social-icons a:hover {
+            text-decoration: underline;
+        }
+
+        .page__content {
+            padding: 20px;
+        }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-top: 1px solid #ddd;
         }
     </style>
 </head>
 
 <body>
-
     <!-- Header -->
-    <div class="container">
-        <h1 style="font-variant: small-caps; text-align: center;"><b>Daniel de Abreu Pereira Uhr</b></h1>
-        <hr width="50%">
-        <center>
-            [<a href="index.html" class="text-danger" style="font-variant: small-caps;">&nbsp;Home&nbsp;</a>]
-            [<a href="research.html" style="font-variant: small-caps;">&nbsp;Research&nbsp;</a>]
-            [<a href="cv.html" style="font-variant: small-caps;">&nbsp;CV&nbsp;</a>]
-            [<a href="contact.html" style="font-variant: small-caps;">&nbsp;Contact&nbsp;</a>]
-        </center>
-        <hr width="50%">
+    <div class="masthead">
+        <nav class="masthead__menu">
+            <a href="index.html">Home</a>
+            <a href="research.html">Research</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </div>
 
-    <!-- Main Content -->
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <!-- Left Column (Image and Social Links) -->
-            <div class="col-sm-3">
-                <div class="rect-avatar"></div>
-                <div class="social-links">
-                    <a href="https://github.com/Daniel-Uhr" target="_blank">GitHub</a>
-                    <a href="https://www.linkedin.com/in/daniel-uhr-6847675b" target="_blank">LinkedIn</a>
-                    <a href="https://twitter.com/danieluhr01" target="_blank">Twitter</a>
+            <!-- Sidebar -->
+            <div class="col-md-3 sidebar">
+                <div class="author__avatar">
+                    <img src="img/pic.jpg" alt="Daniel de Abreu Pereira Uhr">
+                </div>
+                <div class="author__content">
+                    <h3>Daniel de Abreu Pereira Uhr</h3>
+                    <p>Professor of Economics at the Federal University of Pelotas (UFPel).</p>
+                    <p>Research interests: Microeconometrics, Causal Inference, Public Policy Evaluation.</p>
+                </div>
+                <div class="social-icons">
+                    <a href="mailto:daniel.uhr@gmail.com"><i class="fas fa-envelope"></i> Email</a><br>
+                    <a href="https://github.com/Daniel-Uhr" target="_blank"><i class="fab fa-github"></i> GitHub</a><br>
+                    <a href="https://www.linkedin.com/in/daniel-uhr-6847675b" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a><br>
+                    <a href="https://twitter.com/danieluhr01" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
                 </div>
             </div>
 
-            <!-- Right Column (About Section) -->
-            <div class="col-sm-9">
-                <h3 style="font-variant: small-caps;" align="left">About</h3>
-                <p align="justify">
+            <!-- Main Content -->
+            <div class="col-md-9 page__content">
+                <h1>Welcome!</h1>
+                <p>
                     I am a Professor of Economics at the Federal University of Pelotas (UFPel). My research focuses on
                     Microeconometrics, Causal Inference, and Public Policy Evaluation.
-                    <br><br>
-                    I hold a Bachelor's degree in Economics from UFRGS, a Master's and Doctorate in Economics from UnB, and
-                    a Postdoctoral degree in Economics from USP.
-                    <br><br>
-                    <a href="research.html"><b class="text-danger">Learn more about my research.</b></a>
+                </p>
+                <p>
+                    I hold a Bachelor's degree in Economics from UFRGS, a Master's and Doctorate in Economics from UnB,
+                    and a Postdoctoral degree in Economics from USP.
+                </p>
+                <p>
+                    Feel free to explore my <a href="research.html">research</a>, view my <a href="cv.html">CV</a>, or
+                    <a href="contact.html">get in touch</a> with me.
                 </p>
             </div>
         </div>
     </div>
 
     <!-- Footer -->
-    <hr width="50%">
     <footer>
-        <center>
-            [<a href="https://github.com/Daniel-Uhr" target="_blank" style="font-variant: small-caps;">&nbsp;GitHub&nbsp;</a>]
-            [<a href="https://scholar.google.com" target="_blank" style="font-variant: small-caps;">&nbsp;Google Scholar&nbsp;</a>]
-            [<a href="https://twitter.com/danieluhr01" target="_blank" style="font-variant: small-caps;">&nbsp;Twitter&nbsp;</a>]
-        </center>
-        <br>
+        <p>© 2025 Daniel de Abreu Pereira Uhr</p>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
-
