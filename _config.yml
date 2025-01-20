@@ -1,1 +1,6 @@
-theme: jekyll-theme-minimal
+title: Daniel de Abreu Pereira Uhr
+description: Professor de Economia na UFPel
+url: "https://daniel-uhr.github.io"
+baseurl: ""
+theme: minimal-mistakes-jekyll
+
