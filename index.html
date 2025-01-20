@@ -17,16 +17,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
-        .photo-container {
+        .circle-avatar {
             width: 100%;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .photo-container img {
-            max-width: 200px;
             height: auto;
+            max-width: 200px;
             border-radius: 5px;
+            display: block;
+            margin: auto;
         }
+
         footer {
             margin-top: 30px;
         }
@@ -44,9 +43,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-3">
-                <div class="photo-container">
-                    <img src="img/pic.jpg" alt="Daniel de Abreu Pereira Uhr">
-                </div>
+                <img src="img/pic.jpg" alt="Daniel de Abreu Pereira Uhr" class="circle-avatar">
             </div>
             <div class="col-sm-9">
                 <h3 style="font-variant:small-caps" align="left">About</h3>
@@ -57,7 +54,7 @@
                     Economics from USP.
                 </p>
                 <p align="justify">
-                    Feel free to explore my <a href="publications.html" class="text-danger">research</a>, view my <a href="cv.pdf" target="_blank" class="text-danger">CV</a>, or <a href="contact.html" class="text-danger">get in touch</a> with me.
+                    Feel free to explore my <a href="publications.html" class="text-danger">research</a>, view my <a href="cv.pdf" target="_blank" class="text-danger">CV</a>, or <a href="contact.html" class="text-danger">get in touch</a>.
                 </p>
             </div>
         </div>
@@ -79,3 +76,4 @@
 </body>
 
 </html>
+
