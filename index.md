@@ -6,6 +6,7 @@ permalink: /
 
 <img src="https://daniel-uhr.github.io/Daniel.JPEG" alt="Daniel">
 
+
 # Daniel de Abreu Pereira Uhr
 
 Professor de Economia na Universidade Federal de Pelotas (UFPel).
