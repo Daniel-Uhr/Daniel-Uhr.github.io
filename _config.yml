@@ -4,3 +4,8 @@ url: "https://daniel-uhr.github.io"
 baseurl: ""
 theme: minimal-mistakes-jekyll
 
+header_pages:
+  - index.md
+  - _pages/research.md
+  - _pages/cv.md
+  - _pages/contact.md
