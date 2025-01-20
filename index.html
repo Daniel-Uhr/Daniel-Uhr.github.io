@@ -2,15 +2,6 @@
 <html lang="en">
 
 <head>
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158095434-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-158095434-1');
-    </script>
-
     <title>Daniel de Abreu Pereira Uhr</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,16 +9,29 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <!-- Custom CSS for avatar -->
+    <!-- Custom CSS -->
     <style>
-        .circle-avatar {
+        .rect-avatar {
             background-image: url('img/pic.jpg');
             background-size: cover;
             background-position: center;
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            margin: auto;
+            width: 100%;
+            height: 200px;
+        }
+
+        .social-links {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -50,9 +54,14 @@
     <!-- Main Content -->
     <div class="container">
         <div class="row">
-            <!-- Left Column (Image) -->
+            <!-- Left Column (Image and Social Links) -->
             <div class="col-sm-3">
-                <div class="circle-avatar"></div>
+                <div class="rect-avatar"></div>
+                <div class="social-links">
+                    <a href="https://github.com/Daniel-Uhr" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/daniel-uhr-6847675b" target="_blank">LinkedIn</a>
+                    <a href="https://twitter.com/danieluhr01" target="_blank">Twitter</a>
+                </div>
             </div>
 
             <!-- Right Column (About Section) -->
@@ -69,14 +78,6 @@
                 </p>
             </div>
         </div>
-
-        <!-- News Section -->
-        <h3 style="font-variant: small-caps;" align="left">News</h3>
-        <ul>
-            <li>New paper accepted in <b>Journal of Econometrics</b>.</li>
-            <li>Upcoming presentation at <b>Annual Economic Conference</b>.</li>
-            <li>New course on "Causal Inference" starts next semester.</li>
-        </ul>
     </div>
 
     <!-- Footer -->
@@ -89,6 +90,8 @@
         </center>
         <br>
     </footer>
+
 </body>
 
 </html>
+
