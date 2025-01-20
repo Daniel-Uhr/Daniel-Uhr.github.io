@@ -3,7 +3,8 @@ description: Professor de Economia na UFPel
 url: "https://daniel-uhr.github.io"
 baseurl: ""
 
-theme: minima
+theme: minimal-mistakes-jekyll
+
 
 header_pages:
   - index.md
