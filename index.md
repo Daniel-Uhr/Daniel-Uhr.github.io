@@ -4,7 +4,7 @@ title: "Home"
 permalink: /
 ---
 
-<img src="./Daniel.JPEG" alt="Daniel">
+<img src="Daniel-Uhr.github.io/Daniel.JPEG" alt="Daniel">
 
 
 
