@@ -8,3 +8,4 @@ permalink: /research/
 - Microeconometria
 - Inferência Causal
 - Avaliação de Políticas Públicas
+
