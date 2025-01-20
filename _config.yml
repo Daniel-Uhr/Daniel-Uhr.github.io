@@ -2,13 +2,12 @@ title: Daniel de Abreu Pereira Uhr
 description: Professor de Economia na UFPel
 url: "https://daniel-uhr.github.io"
 baseurl: ""
-theme: jekyll-theme-merlot
 
-
-
+theme: minima
 
 header_pages:
   - index.md
-  - _pages/research.md
-  - _pages/cv.md
-  - _pages/contact.md
+  - research.md
+  - cv.md
+  - contact.md
+
