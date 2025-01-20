@@ -4,6 +4,8 @@ title: "Home"
 permalink: /
 ---
 
+<img src="https://daniel-uhr.github.io/Daniel.JPEG" alt="Daniel de Abreu Pereira Uhr" style="display: block; margin: 0 auto; max-width: 300px; border-radius: 50%;">
+
 # Daniel de Abreu Pereira Uhr
 
 Professor de Economia na Universidade Federal de Pelotas (UFPel).
@@ -16,4 +18,3 @@ Possui graduação em Ciências Econômicas pela UFRGS, mestrado e doutorado pel
 - **Lattes**: [http://lattes.cnpq.br/4304478309284161](http://lattes.cnpq.br/4304478309284161)
 - **LinkedIn**: [Perfil LinkedIn](https://www.linkedin.com/in/daniel-uhr-6847675b)
 - **Twitter**: [@danieluhr01](https://twitter.com/danieluhr01)
-
